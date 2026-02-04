@@ -241,3 +241,42 @@ footer{
   .grid{ grid-template-columns: 1fr; }
   .hero-card{ padding:18px; }
 }
+
+/* ===== CONTACT SECTION FIX ===== */
+
+#contact a{
+  color:#f4b400;
+  text-decoration:none;
+}
+
+#contact a:hover{
+  text-decoration:underline;
+}
+
+/* Form styling */
+#contact input,
+#contact textarea,
+#contact select{
+  width:100%;
+  padding:12px;
+  border-radius:10px;
+  border:none;
+  margin-top:6px;
+  margin-bottom:12px;
+  font-size:14px;
+}
+
+/* Submit button */
+#contact button{
+  background:#f4b400;
+  color:black;
+  padding:14px 22px;
+  border:none;
+  border-radius:12px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+#contact button:hover{
+  background:#ffcc33;
+}
